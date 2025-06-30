@@ -2,7 +2,7 @@ import { useState } from "react";
 import { profiles } from "./data/profiles";
 import { basePortions } from "./data/basePortions";
 
-export default function Home() {
+export default function App() {
   const [selectedProfileKey, setSelectedProfileKey] = useState<string>("lucas");
   const [selectedMeal, setSelectedMeal] = useState<string | null>(null);
   const [selectedItems, setSelectedItems] = useState<
